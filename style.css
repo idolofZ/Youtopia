@@ -1,0 +1,129 @@
+@charset UTF-8;
+
+.logo{
+    padding-top:30px;
+    margin:0 auto;
+}
+
+
+
+#PASSION, #ICON, #ACHIEVEMENT{
+    width:100%;
+    height:100%;
+    margin-top:50px;
+}
+
+
+.passion1{  
+    margin-bottom: -200px;
+    margin-left: 700px;
+}
+
+
+.icon1{
+    scale: 0.7;
+    margin-left:770px;
+    margin-top:200px;
+}
+
+.icon2{
+    scale: 0.7;
+    margin-left: 700px;
+    margin-top: -20px;
+}
+
+
+img[src="Images/Passion2.png"]{
+    width:490px;
+    height:347px;
+}
+img[src="Images/Passion2wd.png"]{
+    width: 517px;
+    margin-top: -80px;
+    /* height: 464px; */
+}
+
+img[src="Images/ICONs/ICON3.png"]{
+    /* margin-top:-349px; */
+    width: 335px;;
+    height: 575px;
+}
+img[src="Images/ICONs/ICON3wd.png"]{
+    /* width: 335px;; */
+    /* height: 575px; */
+}
+
+img[src="Images/ACHIEVEMENT/ACHIEVEMENT3.png"]{
+    /* margin-top:-349px; */
+    width: 404px;;
+    height: 383px;
+}
+img[src="Images/ACHIEVEMENT/ACHIEVEMENT3_d.png"]{
+    width:404px;
+}
+
+
+
+.passion2{
+    width: 490px; height: 235px;
+    margin-left: 485px;
+    margin-top:210px;
+    overflow:visible;
+    position: relative;
+}
+
+.icon3{
+    width: 245px; height: 535px;
+    margin-left: 510px;
+    margin-top:-200px;
+    overflow:visible;
+    position: relative;
+}
+
+.passion2 .text, .icon3 .text{
+    color:#000000;
+    font-size:20px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    z-index:-1;
+}
+
+.passion2 img, .icon3 img{
+    transition:0.7s;
+    /* margin-top:200px; */
+}
+.passion2 img:hover, .icon3 img:hover{
+    transform:scale(1.2,1.2);
+    transition:0.7s;
+}
+
+.passion2:hover .text, .icon3:hover .text{
+	/* opacity:		1;	マスクを表示する */
+    transition:all 0.7s;
+	-webkit-transform:	scale(10);	
+	transform:scale(10);/* 変化後の文字の大きさ */
+}
+
+.passion3{
+    width: 393px; height: 131px;
+    margin-top: 40px; margin-left: 550px;
+}
+
+
+
+#side_sns ul{
+    position:absolute;
+    list-style:none;
+}
+
+.sns{
+    position:fixed;
+    right:150px;
+    top:320px;
+}
+
+.sns .p{
+    scale:10px;
+}
